@@ -2,7 +2,7 @@
 
 echo "Let us build a nexus app using gocd..."
 
-sh "wget https://download.sonatype.com/nexus/oss/nexus-2.14.8-01-bundle.tar.gz"
-sh "sudo docker build -t boobathi08/nexus ."
-sh "sudo docker run -d -p 8081:8081 boobathi08/nexus"
-sh "sudo rm -rf nexus-2.14.8-01-bundle.tar.gz"
+wget https://download.sonatype.com/nexus/oss/nexus-2.14.8-01-bundle.tar.gz
+#sudo docker build -t boobathi08/nexus .
+#sudo docker run -d -p 8081:8081 boobathi08/nexus
+#sudo rm -rf nexus-2.14.8-01-bundle.tar.gz
